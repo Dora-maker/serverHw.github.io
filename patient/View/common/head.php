@@ -30,7 +30,7 @@ if (isset($_SESSION["updatedInfo"])) {
 <body>
   <nav class="navbar navbar-expand-lg px-3 ">
     <div class="container-fluid">
-  <a href="./home1.php" ><img class="vrcarer" src="./storages/logo/VR2.png" alt="Vr_Carer" width="104px"> </a>
+  <a href="./home1.php" ><img class="vrcarer" src="./storages~HEAD/logo/VR2.png" alt="Vr_Carer" width="104px"> </a>
       <button class="navbar-toggler text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
       <div class="collapse navbar-collapse navbar_text_div" id="navbarNavAltMarkup">
         <div class="navbar-nav ">

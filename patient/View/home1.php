@@ -45,22 +45,22 @@ if (!isset($_SESSION["email"])) {
                 <ul class="splide__list">
                     <li class="splide__slide">
                         <div class="first_slide_div">
-                            <img src="./storages/image/<?=$carouselInfo[0]["caroussel_image"]?>" alt="" class="first_slide_img" />
+                            <img src="../../admin/View/storages/image/<?=$carouselInfo[0]["caroussel_image"]?>" alt="" class="first_slide_img" />
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="first_slide_div">
-                            <img src="./storages/image/<?=$carouselInfo[0]["caroussel_image_2"]?>" alt="" class="first_slide_img" />
+                            <img src="../../admin/View/storages/image/<?=$carouselInfo[0]["caroussel_image_2"]?>" alt="" class="first_slide_img" />
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="first_slide_div">
-                            <img src="./storages/image/<?=$carouselInfo[0]["caroussel_image_3"]?>" alt="" class="first_slide_img" />
+                            <img src="../../admin/View/storages/image/<?=$carouselInfo[0]["caroussel_image_3"]?>" alt="" class="first_slide_img" />
                         </div>
                     </li>
                     <li class="splide__slide">
                         <div class="first_slide_div">
-                            <img src="./storages/image/<?=$carouselInfo[0]["caroussel_image_4"]?>" alt="" class="first_slide_img" />
+                            <img src="../../admin/View/storages/image/<?=$carouselInfo[0]["caroussel_image_4"]?>" alt="" class="first_slide_img" />
                         </div>
                     </li>
 
@@ -88,7 +88,7 @@ if (!isset($_SESSION["email"])) {
                         <p class="text-white"> <?= $info["para_text"] ?></p>
                     </div>
                     <div class="article_image">
-                        <img src="./storages/article/<?= $info["image"] ?>" alt="" id="article_image">
+                        <img src="../../admin/View/storages/article/<?= $info["image"] ?>" alt="" id="article_image">
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@ if (!isset($_SESSION["email"])) {
                 <li class="card">
                     <div>
                         <div class="vaccine_div">
-                            <img src="./storages/medicine/<?= $medicine["medicine_image"] ?>" class="vaccine_img">
+                            <img src="../../admin/View/storages/medicine/<?= $medicine["medicine_image"] ?>" class="vaccine_img">
                         </div>
                         <h3 class="card-title"><?= $medicine["medicine_name"] ?></h3>
                         <div class="card-content">
